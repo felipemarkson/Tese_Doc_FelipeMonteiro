@@ -1,0 +1,174 @@
+\begin{table}[ht]
+\centering
+\caption{Parâmetros gerais utilizados}
+\label{tab:param}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+ &
+  Descrição &
+  Símbolo &
+  Valor &
+  Unidade \\ \midrule
+ &
+  Taxa de juros &
+  $i$ &
+  7,1 &
+  \% \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  Limite de orçamento &
+  $IB_t; \; \forall t \in T$ &
+  \multicolumn{1}{l}{6 milhões} &
+  USD \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  \begin{tabular}[c]{@{}l@{}}Limite de penetração\\ de geradores\\ distribuídos\end{tabular} &
+  $\xi$ &
+  25 &
+  \% \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  Fator de potência &
+  $pf$ &
+  0,9 &
+  - \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  Tensão base &
+  - &
+  20 &
+  kV \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  \begin{tabular}[c]{@{}l@{}}Limite de tensão \\ superior\end{tabular} &
+  $\overline{V}$ &
+  1,05 &
+  p.u. \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  \begin{tabular}[c]{@{}l@{}}Limite de tensão \\ inferior\end{tabular} &
+  $\underline{V}$ &
+  0,95 &
+  p.u. \\ \midrule
+\multirow{7}{*}{\begin{tabular}[c]{@{}l@{}}Dados dos \\ ativos já \\ instalados\end{tabular}} &
+  \begin{tabular}[c]{@{}l@{}}Impedância dos \\ transformadores\end{tabular} &
+  $Z^{ET}_k; \; \forall k \in K^{ET}$ &
+  0,25 &
+  $\Omega$ \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  \begin{tabular}[c]{@{}l@{}}Potência nominal \\ dos transformadores\end{tabular} &
+  $\overline{G}^{ET}_k; \; \forall k \in K^{ET}$ &
+  7,5 &
+  MVA \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  \begin{tabular}[c]{@{}l@{}}Ampacidade \\ das linhas\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}$\overline{F}^{l}_k;$\\ $\forall l \in \{EFB,ERB\}, \forall k \in K^{l}$\end{tabular} &
+  3,94 &
+  MVA \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  \begin{tabular}[c]{@{}l@{}}Impedância \\ das linhas\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}$\overline{Z}^{l}_k; $\\ $\forall l \in \{EFB,ERB\}, \forall k \in K^{l}$\end{tabular} &
+  0,732 &
+  $\Omega$/km \\ \midrule
+\multirow{7}{*}{Vida útil} &
+  Subestação &
+  $\eta^{SS}$ &
+  $\infty^+$ &
+  anos \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  Transformador &
+  $\eta^{NT}$ &
+  15 &
+  anos \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  Linhas &
+  $\eta^{l}; \;\forall l \in \{NAB, NRB\}$ &
+  25 &
+  anos \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  Geradores distribuídos &
+  $\eta^{DG}$ &
+  20 &
+  anos \\ \midrule
+\multirow{5}{*}{Quantidades} &
+  Estágios &
+  $n_T$ &
+  3 &
+  - \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  \begin{tabular}[c]{@{}l@{}}Nós candidatos a \\ receber geradores \\ distribuídos\end{tabular} &
+  $n_{DG}$ &
+  8 &
+  - \\
+ &
+   &
+   &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} \\
+ &
+  Partes da linearização &
+  $n_\nu$ &
+  3 &
+  - \\ \bottomrule
+\end{tabular}
+Fonte: Adaptado de \citeonline{MunozDelgado2015}
+\end{table}

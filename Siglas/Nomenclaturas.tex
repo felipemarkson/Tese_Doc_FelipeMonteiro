@@ -1,0 +1,84 @@
+\renewcommand\nomgroup[1]{%
+  \item[\bfseries
+  \ifstrequal{#1}{A}{Índices}{%
+  \ifstrequal{#1}{B}{Conjuntos}{%
+  \ifstrequal{#1}{C}{Parâmetros}{%
+  \ifstrequal{#1}{D}{Variáveis Contínuas}{
+  \ifstrequal{#1}{E}{\hspace{-8px}Variáveis Binarias}{
+  }}}}}%
+]}
+
+\setlength{\nomlabelwidth}{3.7cm}
+
+
+\nomenclature[A]{$b$}{Nível de carregamento do sistema}
+\nomenclature[A]{$k$}{Alternativa de investimento}
+\nomenclature[A]{$l$}{Tipo de ramo}
+\nomenclature[A]{$r, s$}{Nós do sistema de distribuição}
+\nomenclature[A]{$t, \tau$}{Estágio}
+\nomenclature[A]{$tr$}{Tipo de transformador}
+\nomenclature[A]{$h$}{Cenário de geração de energia renovável}
+\nomenclature[A]{$u$}{Cenário de capacidade de acomodação}
+\nomenclature[A]{$\nu$}{Parte da linearização das perdas}
+\nomenclature[A]{$p$}{Tipo de gerador distribuído}
+
+
+\nomenclature[B]{$\Omega^S_s$}{Nós conectados ao nó $s$ por algum ramo}
+\nomenclature[B]{$B$}{Nível de carregamento do sistema}
+\nomenclature[B]{$K^\textbf{*}$}{Alternativas de ativos do tipo \textbf{*}}
+\nomenclature[B]{$L$}{Tipos de ramos}
+\nomenclature[B]{$T$}{Estágios}
+\nomenclature[B]{$TR$}{Tipos de transformadores, novos (NT) ou existentes (ET)}
+\nomenclature[B]{$\Upsilon^l$}{Pares de nós do sistema conectados por tipo de ramo}
+\nomenclature[B]{$\Omega^N$}{Nós do sistema de distribuição}
+\nomenclature[B]{$\Omega^{DG}_p$}{Nós do sistema de distribuição que permite a instalação de geradores distribuídos (DG) do tipo $p$}
+\nomenclature[B]{$\Omega^{SSE}$}{Nós do sistema de distribuição que já possuem subestações}
+\nomenclature[B]{$\Omega^{SSN}$}{Nós do sistema de distribuição em que pode ser instalado subestações}
+\nomenclature[B]{$\Omega^{SS}$}{Nós do sistema de distribuição de subestações  (SS), $\Omega^{SS} = \Omega^{SSE} \cup\Omega^{SSN}$}
+\nomenclature[B]{$\Omega^{l}_s$}{Nós dos sistema de distribuição conectados ao nó}
+\nomenclature[B]{$\Omega^{LN}_t$}{Nós dos sistema de distribuição que possuem cargas}
+\nomenclature[B]{$H$}{Indicies do cenário de geração de energia renovável}
+\nomenclature[B]{$U$}{Indicies do cenário de capacidade de acomodação}
+\nomenclature[B
+]{$D$, $RW$, $P$}{Tipos de geradores distribuídos despacháveis, Tipos de geradores distribuídos renováveis (não despacháveis), Tipos de geradores distribuídos $P = RW \cup D$ }
+
+
+\nomenclature[C]{$C^{I, \textbf{*}}_{k}$}{Custo de investimento do ativo \textbf{*}}
+\nomenclature[C]{$C^{M, \textbf{*}}_{k}$}{Custo de manutenção do ativo \textbf{*}}
+\nomenclature[C]{$C^{E, DG}_{k}$}{Custo de geração de energia do gerador distribuído}
+\nomenclature[C]{$C^{SS}_{b}$}{Custo de compra de energia da geração no nível de carregamento $b$}
+\nomenclature[C]{$D_{st}$}{Demanda de potência estimada}
+\nomenclature[C]{$\overline{F}^l_k$}{Ampacidade da linha}
+\nomenclature[C]{$\overline{G}^{DG}_{pk}$}{Limite de injeção de corrente dos geradores distribuídos}
+\nomenclature[C]{$G^{RW}_{pkstb}$}{Injeção de corrente esperada dos gerador distribuídos renováveis}
+\nomenclature[C]{$M$}{Valor suficientemente grande}
+\nomenclature[C]{$i$}{Taxa de juros}
+\nomenclature[C]{$IB_t$}{Limite de orçamento}
+\nomenclature[C]{$\ell_{sr}$}{Comprimento do ramo}
+\nomenclature[C]{$n_{DG}$, $n_T$, $n_\nu$}{Quantidade de nós candidatos a receber geradores distribuídos, quantidade de estágios, quantidade de partes da linearização, respectivamente}
+\nomenclature[C]{$pf$}{Fator de potência do sistema de distribuição}
+\nomenclature[C]{$RR^\textbf{*}$}{Taxa de retorno de capital de novos investimentos do ativo \textbf{*}}
+\nomenclature[C]{$\overline{V}, \underline{V}$}{Limite superior e inferior de tensão, respectivamente}
+\nomenclature[C]{$Z_k^\textbf{*}$}{Módulo da impedância do ativo \textbf{*}}
+\nomenclature[C]{$Z_k^\textbf{*}$}{Módulo da impedância do ativo \textbf{*}}
+\nomenclature[C]{$\Delta_b$}{Duração estimada do nível de carregamento}
+\nomenclature[C]{$\eta^\textbf{*}$}{Vida útil do ativo \textbf{*}}
+\nomenclature[C]{$\mu_b$}{Fator de multiplicação da carga}
+\nomenclature[C]{$\alpha^{RW}_h$}{Multiplicador do cenário de geração renovável}
+\nomenclature[C]{$\alpha^{HC}_u$}{Multiplicador do cenário de capacidade de acomodação}
+
+
+
+\nomenclature[D]{$c^{TPV}$}{Valor esperado do presente líquido dos custos totais}
+\nomenclature[D]{$c^I_t, c^M_t, c^E_t, c^R_t$}{Valor esperado do custos com investimentos, manutenção, energia e perdas}
+\nomenclature[D]{$f^l_{srktbh}, \widetilde{f}^{srt}, f^{l, HC}_{srktbh}$}{Corrente nos ramos: real, fictícia e para capacidade de acomodação}
+\nomenclature[D]{$g^{tr}_{sktbh},\widetilde{g}^{SS}_{st}, g^{tr, HC}_{sktbh}$}{    Corrente da subestação: real, fictícia e para capacidade de acomodação}
+\nomenclature[D]{$g^{DG}_{psktbh}, g^{DG, HC}_{psktbh}$}{Corrente do gerador distribuído: real e para capacidade de acomodação}
+\nomenclature[D]{$g^{HC}_{t}$}{Corrente dos recursos energéticos simulados para a capacidade de acomodação}
+\nomenclature[D]{$J^{HC}$}{Indicador que representa a capacidade de acomodação do sistema planejado}
+\nomenclature[D]{$v_{stbh}, v_{stbh}^{HC} $}{Tensão nodal: real e para capacidade de acomodação}
+
+
+\nomenclature[E]{$x^l_{srkt}, x^{NT}_{skt}, x^{SS}_{st}, x^{DG}_{pskt}$}{Decisão de investimento em: linha, novo transformador, expansão de subestação, novo gerador distribuído}
+\nomenclature[E]{$y^l_{srkt}, y^{tr}_{skt}, y^{DG}_{pskt}$}{Uso de: linha, transformador, gerador distribuído}
+

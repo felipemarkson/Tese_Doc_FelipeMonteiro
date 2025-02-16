@@ -1,0 +1,52 @@
+\chapter[Introdução]{Introdução}
+\label{Introdução}
+
+A expansão do sistema de distribuição de energia elétrica é uma ação realizada pela empresa distribuidora para atender o crescimento da demanda de uma determinada região. Esta ação é orientada por um plano de execução que seleciona as atividades e a ordem em que serão executadas para que o sistema de distribuição, durante e após a execução do plano,  atenda todos os seus consumidores atuais e futuros respeitando as normas vigentes. Desta forma, permitindo que a empresa distribuidora possa operar de forma segura o sistema de distribuição resultante.
+
+
+Segundo a \citeonline{prodist2}, o \ac{PESD}  é dividido em quatro etapas. A primeira etapa é a previsão da demanda, na qual a empresa distribuidora desenvolve estudos de previsão de carga de médio e longo prazo, considerando a periodicidade e, no mínimo, o histórico consolidado de cargas dos últimos anos, de forma que forneça as informações necessárias para o planejamento de linhas e subestações. Na segunda etapa é realizada a caracterização da carga e do sistema elétrico, na qual, utilizando campanhas de medição, as unidades consumidoras são estratificadas para a realização da caracterização da curva de carga. Na terceira etapa são realizados estudos técnicos e econômicos necessários para a definição dos esforços e investimentos necessários a fim de atender aos consumidores. Por fim, a quarta etapa denominada como plano de desenvolvimento da distribuição, descreve os estudos realizados e os planos de obras que serão implementados na expansão.
+
+
+Neste contexto,  o desenvolvimento deste trabalho é voltado para a terceira etapa, na qual, são realizados estudos técnicos e econômicos para a tomada de decisão sobre os investimentos necessários, bem como os seus estágios. Nesta etapa do \ac{PESD}, é considerado que os estudos de previsão de demanda e caracterização das cargas já foram realizados e que estas informações estão disponíveis para o engenheiro de planejamento. 
+
+Estes estudos podem considerar horizontes de planejamentos entre 5 e 10 anos, nos quais, podem haver mudanças, tanto no comportamento das cargas, quanto na presença de recursos energéticos distribuídos\footnote{Neste trabalho são considerados recursos energéticos distribuídos: geradores distribuídos, sistemas de armazenamento de energia, veículos elétricos, etc, ou seja, qualquer dispositivo ou ente que pode impactar de forma considerável a potência injetada nos nós do sistema de distribuição. Este conceito vem sendo amplamente utilizado pela literatura acadêmica, como pode ser observado no trabalho de \citeonline{AKOREDE2010724}.} instalados no sistema de distribuição. Atualmente, é possível observar cada vez mais ciclos de mudanças no comportamento de cargas e na quantidade de recursos energéticos distribuídos, principalmente devido às inovações tecnológicas, mudanças de comportamento social e incentivos governamentais.
+
+Um exemplo disso, são os 17 objetivos definidos pelas \citeonline{onu2030} na agenda 2030, em especial os objetivos 7, 11 e 13 que ditam, respectivamente, sobre energia limpa e acessível, cidades e comunidades sustentáveis, e ações contra mudanças globais no clima. Os efeitos das ações para atingir estes objetivos já podem ser vistos durante a operação de sistemas de distribuição, seja com o aumento do uso de veículos elétricos pela população (alterando o comportamento das cargas) ou com o aumento da presença de recursos energéticos distribuídos operados por empresas ou pessoas a fim de reduzir os custos com energia elétrica.
+
+
+Outro exemplo é a tendência mundial de adoção de mercados de energia ditos livres, 
+"[...] no qual se realizam as operações de compra e venda de energia elétrica, objeto de contratos bilaterais livremente negociados, conforme regras e procedimentos de comercialização específicos." \cite{leimercadolivre}. Estes mercados têm incentivado cada vez mais a utilização de geradores distribuídos de fontes renováveis, que acabam impactando a operação de sistemas de distribuição.
+
+Em complemento a estes fatores, os sistemas de distribuição atuais não foram previamente planejados para tal nível de penetração de recursos energéticos distribuídos que está sendo requerido atualmente, causando cada vez mais problemas de manutenção ou até a necessidade de novos planejamentos para a adequação dos mesmos. 
+
+Neste âmbito, a empresa distribuidora encontra-se na situação de ter que acomodar (ou hospedar) cada vez mais recursos energéticos distribuídos, em seu sistema de distribuição mantendo a qualidade do produto conforme descrito em normas e padronizações locais. Esta relação, entre os investimentos necessários para acomodar estes novos recursos energéticos distribuídos e o nível de penetração que um sistema de distribuição pode suportar, ainda não é muito bem definida para o problema de planejamento da expansão.
+
+
+Este conceito de níveis de acomodação, ou capacidade de acomodação de recursos energéticos distribuídos, é encontrado na literatura como \ac{HC}. O \ac{HC} é um indicador de alta abstração do sistema de distribuição que tem por objetivo mensurar a quantidade e potência máxima de recursos energéticos distribuídos que podem ser instalados. Este indicador possibilita aos engenheiros de planejamento da empresa distribuidora terem uma informação geral das possibilidades de quanto é seguro aumentar a penetração destes recursos no sistema de distribuição.
+
+Apesar do próprio conceito de \ac{HC} ter diferentes variações (seja em proteção, qualidade da energia, confiabilidade, etc.), todos eles partem do princípio de avaliar o sistema de distribuição em relação a um ou mais indicadores de desempenho. O valor de \ac{HC} é então definido pela máxima penetração de recursos energéticos distribuídos em que o sistema de distribuição permanece dentro das normas e padronizações locais referente ao indicador de desempenho utilizado. 
+
+Do ponto de vista do \ac{PESD}, este conceito é novo e não há uma definição mais detalhada de como medir este indicador, sendo obrigação da empresa distribuidora manter o sistema de distribuição operando de forma segura para a alocação de quaisquer recursos energéticos distribuídos que podem ser instalados no sistema de distribuição, mediante solicitação.
+
+Desta forma, o valor de \ac{HC} pode ser utilizado como um dos indicadores para a escolha de novos investimentos de empresas que desejam utilizar recursos energéticos distribuídos em um sistema de distribuição, criando assim um ambiente mais previsível e seguro tanto para a empresa distribuidora, quanto para outros interessados em utilizar estes recursos.
+
+Portanto, este trabalho descreve uma proposta de integração do problema de \ac{PESD}, com um indicador de \ac{HC}, no qual a empresa distribuidora poderá analisar tanto o HC total no final do plano de expansão, quanto o máximo valor de penetração de recursos energéticos distribuídos nos nós do sistema de distribuição. Esta integração é realizada baseando-se no modelo de planejamento proposto por \citeonline{MunozDelgado2015} com algumas alterações nas restrições do modelo. 
+
+\section{Objetivos}
+
+Conforme descrito, os indicadores de \ac{HC} ainda são relativamente novos no problema de \ac{PESD}. Desta forma, tem-se como objetivo geral deste trabalho, integrar conceitos de \ac{HC} no problema de \ac{PESD}, de forma que futuramente seja possível analisar a relação entre os custos com a expansão e o valor de \ac{HC} do sistema de distribuição ao final do plano.
+
+Para isso, os objetivos específicos são:
+
+\begin{itemize}
+    \item realizar estudos sobre as restrições e objetivo do problema de \ac{PESD};
+    \item realizar um levantamento dos principais indicadores de \ac{HC} em sistemas de distribuição;
+    \item analisar como estes indicadores podem ser incluídos no problema de \ac{PESD};
+    \item propor um modelo de programação linear inteira-mista que integre os conceitos de \ac{HC} e \ac{PESD};
+    \item analisar aspectos que relacionem o valor de \ac{HC} com os custos do \ac{PESD}.
+\end{itemize}
+
+
+\section{Estrutura do trabalho}
+
+Este trabalho é dividido em 5 capítulos, este primeiro, apresenta a contextualização do problema, bem como os desafios a serem superados para se atingir os objetivos. O segundo apresenta o \ac{PESD} desde seus conceitos fundamentais até a modelagem matemática do problema na forma de otimização. Já no terceiro capítulo, o conceito de \ac{HC} é melhor aprofundado, bem como as produções acadêmicas relacionadas ao tema e, por fim, é apresentada a proposta de integração entre o \ac{PESD} e este conceito. No quarto capítulo são apresentados os resultados numéricos obtidos até a redação deste trabalho e discussões sobre próximas etapas a serem executadas. No último capítulo é realizada uma recapitulação do que foi desenvolvido e as considerações finais sobre a proposta.

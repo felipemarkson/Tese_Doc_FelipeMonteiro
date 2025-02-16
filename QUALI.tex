@@ -1,0 +1,372 @@
+%% modeloABNT2.tex, v1.0 athila
+%% Copyright 2013 by Athila e Monaro
+%%
+%% Este trabalho é uma adequação das normas de dissertações e teses
+%% da Universidade de São Paulo - USP de acordo com a Norma ABNT
+%%
+%%
+%% Quaisquer dúvidas favor enviar e-mail para:
+%%
+%% athila.uno@gmail.com ou
+%% renato.monaro@gmail.com
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% eesc: Modelo de Trabalho Acadêmico (tese de doutorado, dissertação de
+% mestrado e trabalhos monográficos em geral) em conformidade com 
+% ABNT NBR 14724:2011. Esta classe estende as funcionalidades da classe
+% abnTeX2 elaborada de forma a adequar os parâmetros exigidos pelas 
+% normas USP e do departamento de elétrica da Escola de Engenharia 
+% de São Carlos - USP.
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+% ------------------------------------------------------------------------
+% Opções:
+% 	tesedr:     Formata documento para tese de doutorado
+%	qualidr:    Formata documento para qualificação de doutorado
+% 	dissertmst: Formata documento para dissertação de mestrado
+% 	qualimst:   Formata documento para qualificação de mestrado
+%	tcc:		Formata documento para trabalho de conclusão de curso
+% ------------------------------------------------------------------------
+\AddToHook{package/hyperref/after}{\def\htmladdnormallink#1#2{\href{#2}{#1}}}
+\documentclass[tesedr]{eesc}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage[brazil]{babel}
+%\usepackage{cmap}				% Mapear caracteres especiais no PDF
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage{makeidx}            % Cria o indice
+\usepackage{hyperref}  			% Controla a formação do índice
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl} 			% Lista de simbolos
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{esvect}				% Vetores
+\usepackage{afterpage}
+\usepackage{lscape}
+% ---
+
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo eesc
+% ---
+\usepackage[printonlyused]{acronym}
+\usepackage[table]{xcolor}
+% ---
+
+% ---
+% Pacotes adicionados posteriormente
+% ---
+\usepackage{multirow}			% Ferramenta para tabelas
+\usepackage{caption}			%centralizar caption
+\usepackage{steinmetz} 			% Função \phase
+\usepackage{scalefnt} 			% Alterar o tamanho de tabelas
+\usepackage{textcomp}         	% Marca Registrada
+% ---
+% Pacotes adicionados por Renan
+% ---
+\renewcommand{\labelitemi}{$\bullet$}
+% To a figure in a float page stay on the top
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+\usepackage{amsmath,amssymb,amsfonts}
+
+%---
+%Pacotes adicionados por Felipe Markson (alterado EESC.cls)
+
+\usepackage{setspace}
+%Uso para pseudo codigo
+\usepackage{algpseudocode}
+% Declaracoes em Português
+\algrenewcommand\algorithmicend{\textbf{fim}}
+\algrenewcommand\algorithmicdo{\textbf{faça}}
+\algrenewcommand\algorithmicwhile{\textbf{enquanto}}
+\algrenewcommand\algorithmicfor{\textbf{para}}
+\algrenewcommand\algorithmicif{\textbf{se}}
+\algrenewcommand\algorithmicthen{\textbf{então}}
+\algrenewcommand\algorithmicelse{\textbf{senão}}
+\algrenewcommand\algorithmicreturn{\textbf{retorna}}
+\algrenewcommand\algorithmicfunction{\textbf{função}}
+
+% Rearranja os finais de cada estrutura
+\algrenewtext{EndWhile}{\algorithmicend\ \algorithmicwhile}
+\algrenewtext{EndFor}{\algorithmicend\ \algorithmicfor}
+\algrenewtext{EndIf}{\algorithmicend\ \algorithmicif}
+\algrenewtext{EndFunction}{\algorithmicend\ \algorithmicfunction}
+
+% O comando For, a seguir, retorna 'para #1 -- #2 até #3 faça'
+\algnewcommand\algorithmicto{\textbf{até}}
+\algrenewtext{For}[3]%
+{\algorithmicfor\ #1 $\gets$ #2 \algorithmicto\ #3 \algorithmicdo}
+
+\usepackage{lipsum}
+\usepackage{flafter}
+\usepackage{placeins}
+\usepackage{dirtytalk}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30, align=center]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30, align=center]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30, align=center]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30, aspect=4, yshift=-0.2cm, align=center]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+
+%evita hifenação
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+\newcommand{\todo}{\textcolor{red}{\textbf{TO DO!!! }}}
+
+% ---
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+%
+% Título:
+%	1. Título em português
+%	2. Título em inglês
+\titulo{Planejamento da expansão da distribuição de energia elétrica e capacidade de acomodação de recursos energéticos distribuídos}{
+Power Distribution Expansion Planning and Hosting Capacity of Distributed Energy Resources}
+%
+% Autor:
+%	1. Nome completo do autor
+%	2. Formato de nome para bibliografia
+\autor{Felipe Markson dos Santos Monteiro}{Monteiro, Felipe M. dos S.}
+%
+% Cidade
+\local{São Carlos}
+% Ano de defesa
+\data{2023}
+
+% Área de Concentração
+\areaconcentracao{Sistemas Elétricos de Potência}
+% Nome do orientador
+\orientador{Eduardo N. Asada}
+% Nome do coorientador
+%\coorientador{}
+% ---
+
+\hypersetup{
+	pdftitle={\imprimirtitulo}, 
+	pdfauthor={\imprimirautor},
+	pdfsubject={\imprimirpreambulo},
+	pdfkeywords={Capacidade de acomodação, geradores distribuídos, planejamento da expans\~ao, recursos energéticos, sistemas de distribuição},
+	pdfproducer={LaTeX with abnTeX2},
+	pdfcreator={\imprimirautor},
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	filecolor=magenta,
+	urlcolor=black,
+	bookmarksdepth=4
+}
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ---
+% Compila a lista de abreviaturas e siglas
+% ---
+\makenomenclature
+% ---
+
+% ---
+% Inserir ficha catalográfica
+%
+% Caso o comando \inserirfichacatalografica seja definido, a ficha catalográfica
+% será inserida atrás da folha de rosto. Caso contrário a página será deixada em
+% branco.
+%
+% CUIDADO: Esta opção deve ser preenchida antes do comando \maketitle
+% ---
+\inserirfichacatalografica{fichacatalog.pdf}
+% ---
+
+% ---
+% Inserir folha de aprovação
+%
+% Caso o comando \inserirfolhaaprovacao seja definido, a a folha de aprovação
+% será inserida. Além disso, conforme Resolução CoPGr 5890, as informações 
+% de rodapé são inseridas apropriadamente na folha de rosto.
+%
+% CUIDADO: Esta opção deve ser preenchida antes do comando \maketitle
+% ---
+\inserirfolhaaprovacao{folha_julgamento.pdf}
+% ---
+
+% ----
+% Início do documento
+% ----
+
+\begin{document}
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+\pretextual
+
+% ---
+% Insere Capa, Folha de rosto, Ficha catalográfica (se inserida)
+% e folha de aprovação (se inserida).
+% ---
+\maketitle
+
+
+% ---
+% Dedicatória
+% ---
+\imprimirdedicatoria{Este trabalho é dedicado à minha família e a todos os jovens cientistas que um dia sonharam em melhorar o mundo.}
+% ---
+
+% ---
+% Agradecimentos
+% ---
+\imprimiragradecimentos{
+ Primeiramente agradeço a Deus por zelar e mostrar o caminho que devo seguir para me tornar instrumento de sua obra.
+ 
+ A minha mãe, Elizete Santos, que sempre foi meu refúgio, minha inspiração profissional e fonte de infinito amor e carinho. A meu pai, José Monteiro, que sempre foi minha base, meu alicerce e minha proteção e que hoje zela por mim no céu. A minha irmã, Luciana Monteiro, a pessoa que me fez entender o que é cuidar e zelar por alguém pela primeira vez.  Agradeço também a todos os meus familiares que sempre me ajudaram e deram o suporte para que todas as minhas conquistas fossem possíveis.
+ 
+Agradeço em especial a Wendy Silva, minha esposa, por sempre estar ao meu lado, sendo meu suporte, meu amor e me auxiliando nos momentos mais difíceis que tive em minha vida.
+
+Ao Professor Dr. Eduardo N. Asada, que me mostrou novos horizontes e hoje me orienta nesta carreira de pesquisador, sempre com grandes contribuições às ideias que tive no decorrer desta pesquisa.
+
+Sou grato a todos os amigos e colegas que fiz no Laboratório de Análise de Sistemas de Energia Elétrica, que sempre tiveram paciência e generosidade comigo, contribuindo com ideias e novas formas de contornar os obstáculos. Sou grato também aos amigos e colegas que fiz no Laboratório de Sistemas de Energia Elétrica e a todos os amigos e colegas de outros laboratórios e a todos os técnicos administrativos da Escola de Engenharia de São Carlos.
+
+Por fim, a Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) que apoiou financeiramente esta pesquisa através do processo 2018/23338-0, a Coordena\c{c}\~ao de Aperfei\c{c}oamento de Pessoal de N\'ivel Superior - Brasil (CAPES), sob o código  001 e ao Programa de Pesquisa e Desenvolvimento Tecnológico do Setor de Energia Elétrica da Agência Nacional de Energia Elétrica (PD-2866-0454/2016) -- Sistema de Armazenamento Transportável para Suporte a Contingências Programadas em SEs, desenvolvido em conjunto com CPqD e a COPEL S/A que auxiliou financeiramente outros trabalhos que desenvolvi durante minha jornada acadêmica.
+}
+% ---
+
+% ---
+% Epígrafe
+% ---
+% \imprimirepigrafe{
+% 		"Se, a longo prazo, somos criadores \\
+% 		do nosso destino, de imediato somos \\
+% 		escravos das ideias que criamos." \\ (F. A. Hayek, 1944)
+% }
+% ---
+
+% ---
+% RESUMO e ABSTRACT
+% ---
+
+% Resumo em português
+\begin{resumo}{Sistemas de distribuição de energia elétrica, planejamento da expans\~ao, capacidade de acomodação, recursos energéticos distribuídos, geradores distribuídos}
+\noindent O planejamento da expansão de sistemas de distribuição de energia elétrica é a etapa na qual as empresas distribuidoras buscam realizar estudos para o atendimento de novas unidades consumidoras, respeitando as regulamentações impostas. Nos últimos anos, o setor de distribuição de energia elétrica vem encontrando desafios no planejamento destas redes de distribuição devido aos desafios de integração de recursos energéticos distribuídos (geradores de energia, armazenadores de energia e estações de carga de veículos elétricos). Porém, ao se analisar a literatura acadêmica, não foi encontrado um modelo matemático que seja possível analisar de forma geral o impacto destes recursos energéticos no planejamento da expansão do sistema de distribuição. Desta forma, esta tese apresenta
+um modelo matemático bi-objetivo de otimização inteira-mista que integra o conceito de capacidade de acomodação de recursos energéticos distribuídos ao problema de planejamento da expansão tradicional. O planejamento da expansão ocorre através da escolha de topologia, recondutoramento, instalação de transformadores, redimensionamento ou construções de subestações e instalação de geradores distribuídos que podem ser controlados pela empresa distribuidora. Esta tese também apresenta uma forma de solucionar o modelo proposto através de um método hierárquico com $\epsilon$-restrito.
+Os resultados apresentados nesta tese demonstram que os maiores impactos na capacidade de acomodação de recursos energéticos distribuídos e no custo da expansão do sistema de distribuição estão diretamente relacionados à capacidade da empresa distribuidora de alterar o perfil de fluxo de corrente do sistema de distribuição, através do controle do despacho de recursos energéticos. Também foi possível obter uma estimativa da relação entre a capacidade de acomodação e custos com o planejamento da expansão. Por fim, observou-se que nem todas as soluções que elevam os custos causam diretamente o aumento da capacidade de acomodação e vice-versa, justificando a abordagem de solução proposta.
+\end{resumo}
+
+% Resumo em inglês
+\begin{abstract}{Electrical power distribution system, expansion planning, hosting capacity, distributed energy resources, distributed generation}
+\noindent The electrical power distribution system expansion planning is the phase in which distribution companies conduct studies to meet the needs of new consumers while complying with regulations. The power distribution sector has faced challenges in planning these distribution networks in recent years due to integrating distributed energy resources (power generators, energy storage systems, and electric vehicle charging stations). However, upon reviewing academic literature, no mathematical model was found that can generally analyze the impact of these energy resources on the distribution system expansion planning.
+Therefore, this thesis presents a bi-objective mixed-integer optimization mathematical model that integrates the hosting capacity of distributed energy resources into the traditional expansion planning problem. The expansion planning model involves choosing the topology, reconductoring, installing new transformers, resizing or constructing substations, and installing distributed generators that the distribution company can control. This thesis also presents a way to solve the proposed model using a hierarchical method with $\epsilon$-constraint.
+The results presented in this thesis demonstrate the proposed model's effectiveness and underline the significant impacts on the hosting capacity of distributed energy resources and the cost of expanding the distribution system. These impacts are directly related to the distribution company's ability to alter the current flow profile of the distribution system through the control of energy resource dispatch. The results also demonstrate the relationship between hosting capacity and costs with expansion planning. Finally, it was observed that not all solutions that increase costs directly lead to an increase in the hosting capacity and vice versa, justifying the proposed solution method.
+\end{abstract}
+% ---
+%\listofalgorithms
+
+% ---
+% inserir lista de ilustrações
+% ---
+\listailustracoes
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\listatabelas
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+\listasiglas{Siglas/Abreviaturas}
+% ---
+
+
+\include{Siglas/Nomenclaturas}
+\printnomenclature
+
+
+% ---
+% inserir o sumario
+% ---
+\sumario
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\mainmatter
+
+% ----------------------------------------------------------
+% Capítulos
+% ----------------------------------------------------------
+\include{cap1/Introducao_v01}
+\include{cap2/pesd}
+\include{cap3/hc}
+\include{cap4/results}
+
+% ---
+% Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
+
+
+\bookmarksetup{startatroot}% 
+% ---
+
+% ---
+% Conclusão
+% ---
+\include{Conclusoes/Consideracoes_Parciais_v02}
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{Referencias/refer.bib}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+%\glossary
+
+\begin{apendicesenv}
+	% Imprime uma página indicando o início dos apêndices
+	\partapendices
+	% ----------------------------------------------------------
+	% Incluir Apêndice
+	% ----------------------------------------------------------
+	
+	\input{Apendice/Apendice1_v02}
+	
+\end{apendicesenv}
+
+
+% \begin{anexosenv}
+% 	\partanexos
+% 	\include{Anexos/Anexos_1}
+% \end{anexosenv}
+
+% ---
+
+\end{document}

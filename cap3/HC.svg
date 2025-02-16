@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="101.6223mm"
+   height="65.331001mm"
+   viewBox="0 0 101.62232 65.331002"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="HC.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4663"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient839"
+       gradientUnits="userSpaceOnUse"
+       x="13.843382"
+       y="49.732697"
+       gradientTransform="translate(7.233134,38.084409)">
+      <meshrow
+         id="meshrow865">
+        <meshpatch
+           id="meshpatch867">
+          <stop
+             path="c 0,0  0,0  0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop869" />
+          <stop
+             path="c 0,0.614212  0.0236249,1.2048  0,1.84264"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop871" />
+          <stop
+             path="c 0,0  0,0  0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop873" />
+          <stop
+             path="c 0,-0.614212  0,-1.22842  0,-1.84264"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop875" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient4562"
+       gradientUnits="userSpaceOnUse"
+       x="13.843382"
+       y="49.732697"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,7.233134,38.084409)">
+      <meshrow
+         id="meshrow4574">
+        <meshpatch
+           id="meshpatch4572">
+          <stop
+             id="stop4564"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 0,0  0,0  0,0" />
+          <stop
+             id="stop4566"
+             style="stop-color:#800080;stop-opacity:1"
+             path="c 0,0.614212  0.0236249,1.2048  0,1.84264" />
+          <stop
+             id="stop4568"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 0,0  0,0  0,0" />
+          <stop
+             id="stop4570"
+             style="stop-color:#800080;stop-opacity:1"
+             path="c 0,-0.614212  0,-1.22842  0,-1.84264" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4663-6"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient4913"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(-90,37.453437,126.46843)"
+       x="13.843382"
+       y="49.732697">
+      <meshrow
+         id="meshrow4925">
+        <meshpatch
+           id="meshpatch4923">
+          <stop
+             id="stop4915"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 0,0  0,0  0,0" />
+          <stop
+             id="stop4917"
+             style="stop-color:#800080;stop-opacity:1"
+             path="c 0,0.614212  0.0236249,1.2048  0,1.84264" />
+          <stop
+             id="stop4919"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 0,0  0,0  0,0" />
+          <stop
+             id="stop4921"
+             style="stop-color:#800080;stop-opacity:1"
+             path="c 0,-0.614212  0,-1.22842  0,-1.84264" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient4927"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.26458333,0.26458333,0,-89.01498,163.92186)"
+       x="13.843382"
+       y="49.732697">
+      <meshrow
+         id="meshrow4939">
+        <meshpatch
+           id="meshpatch4937">
+          <stop
+             path="c 0,0  0,0  0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop4929" />
+          <stop
+             path="c 0,0.614212  0.0236249,1.2048  0,1.84264"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop4931" />
+          <stop
+             path="c 0,0  0,0  0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop4933" />
+          <stop
+             path="c 0,-0.614212  0,-1.22842  0,-1.84264"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop4935" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="183.98126"
+     inkscape:cy="128.42853"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-midpoints="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4681"
+       originx="-17.108643"
+       originy="-195.67768" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.108621,-35.99134)">
+    <path
+       style="fill:none;stroke:#262626;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.519718,47.9048 V 93.340619"
+       id="path12"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g4578"
+       transform="translate(9.782642,-2.093069)"
+       style="stroke:#262626;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path837"
+         d="M 14.658394,51.593638 13.737076,49.997869"
+         style="fill:url(#meshgradient839);fill-opacity:1;stroke:#262626;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path837-6"
+         d="m 12.815758,51.593638 0.921318,-1.595769"
+         style="fill:url(#meshgradient4562);fill-opacity:1;stroke:#262626;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4578-6"
+       transform="rotate(90,30.941737,108.3111)"
+       style="stroke:#262626;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <g
+         id="g4773"
+         transform="matrix(1,0,0,1.1425781,0,-16.845826)"
+         style="stroke:#262626;stroke-width:0.49505058;stroke-opacity:1">
+        <path
+           inkscape:connector-curvature="0"
+           id="path12-6"
+           d="M 13.737081,41.564622 V 118.15159"
+           style="fill:none;stroke:#262626;stroke-width:0.49505064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#ea0000;stroke-width:0.52916676;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.11666714, 2.11666714;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 106.55961,61.657852 H 24.105545"
+       id="path12-6-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#007b90;stroke-width:0.39700001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.13143,59.783496 c -2.943698,8.019137 -5.887515,16.038597 -13.257847,20.029165 -7.370332,3.990568 -19.167307,3.95192 -25.065935,3.932595 -5.898629,-0.01932 -5.898629,-0.01932 -5.898629,-0.01932"
+       id="path4661"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect4663"
+       inkscape:original-d="m 68.13143,59.783496 c -2.943551,8.019191 -5.887368,16.038651 -8.831451,24.05838 -11.796727,-0.03891 -23.593702,-0.07756 -35.39096,-0.115944 2.65e-4,-2.65e-4 0,0 0,0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#007b90;stroke-width:0.39700001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.382, 2.382;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 82.508801,59.811173 c -3.125748,7.987638 -6.251622,15.9756 -16.018189,19.961555 -9.766566,3.985956 -26.173932,3.969579 -34.377763,3.96139 -8.20383,-0.0082 -8.20383,-0.0082 -8.20383,-0.0082"
+       id="path4661-8"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect4663-6"
+       inkscape:original-d="M 82.508801,59.811173 C 79.383193,67.798866 76.257319,75.786828 73.131178,83.77506 56.724046,83.75842 40.31668,83.74204 23.909019,83.72593 c 2.65e-4,-2.64e-4 0,0 0,0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#ba4300;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.6, 0.6;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 67.39096,54.929843 V 90.843509"
+       id="path4683-4"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;vector-effect:none;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="24.856512"
+       y="59.113876"
+       id="text4717"><tspan
+         sodipodi:role="line"
+         id="tspan4715"
+         x="24.856512"
+         y="59.113876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.26458332">Operação não aceitavél</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;vector-effect:none;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="24.803041"
+       y="65.763565"
+       id="text4717-0"><tspan
+         sodipodi:role="line"
+         id="tspan4715-8"
+         x="24.803041"
+         y="65.763565"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.26458332">Operação aceitavél</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4784"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333302px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;vector-effect:none;fill:#ba4300;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,32.033482,-5.0478448)"><flowRegion
+         id="flowRegion4786"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#ba4300;fill-opacity:1"><rect
+           id="rect4788"
+           width="52.142857"
+           height="55.357143"
+           x="107.14286"
+           y="363.23398"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#ba4300;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara4790"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#ba4300;fill-opacity:1"
+   id="flowSpan4840">Hosting Capacity</flowSpan> Original</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4784-8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333302px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;vector-effect:none;fill:#1e5200;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,46.512727,-5.0573188)"><flowRegion
+         id="flowRegion4786-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#1e5200;fill-opacity:1"><rect
+           id="rect4788-6"
+           width="52.142857"
+           height="55.357143"
+           x="107.14286"
+           y="363.23398"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#1e5200;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara4790-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#1e5200;fill-opacity:1"
+   id="flowSpan4842">Hosting Capacity</flowSpan> Melhorado</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#1e5200;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.6, 0.6;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 81.737352,54.882245 V 90.795912"
+       id="path4683-4-5"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g4578-3"
+       transform="rotate(90,40.618169,117.98754)"
+       style="stroke:#262626;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path837-3"
+         d="M 14.658394,51.593638 13.737076,49.997869"
+         style="fill:url(#meshgradient4913);fill-opacity:1;stroke:#262626;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path837-6-8"
+         d="m 12.815758,51.593638 0.921318,-1.595769"
+         style="fill:url(#meshgradient4927);fill-opacity:1;stroke:#262626;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4784-8-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333302px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;vector-effect:none;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,66.884453,-3.7936322)"><flowRegion
+         id="flowRegion4786-2-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"><rect
+           id="rect4788-6-5"
+           width="94.642868"
+           height="66.785721"
+           x="107.14286"
+           y="363.23398"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:0;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+         id="flowPara917">Penetração de geradores distribuídos</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4784-8-4-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333302px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;vector-effect:none;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0,-0.26458333,0.26458333,0,-79.666006,111.23288)"><flowRegion
+         id="flowRegion4786-2-1-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"><rect
+           id="rect4788-6-5-4"
+           width="98.413795"
+           height="115.83376"
+           x="107.14286"
+           y="363.23398"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '" /></flowRegion><flowPara
+         id="flowPara4790-2-2-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '">Indicador de desempenho</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4784-8-4-4-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333302px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;vector-effect:none;fill:#ea0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,77.501311,-38.01519)"><flowRegion
+         id="flowRegion4786-2-1-4-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#ea0000;fill-opacity:1"><rect
+           id="rect4788-6-5-4-9"
+           width="52.142857"
+           height="55.357143"
+           x="107.14286"
+           y="363.23398"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#ea0000;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara4790-2-2-5-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '">Limiar de Operação</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#262626;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 81.561139,57.682091 -13.999806,0.02893"
+       id="path4683-2"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#262626;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 68.313624,58.145192 67.561372,57.710878"
+       id="path4844-0"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#262626;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 67.561372,57.710878 0.752252,-0.434314"
+       id="path4844-9-9"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g4739"
+       transform="rotate(180,76.854597,57.203675)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4844-0-5"
+         d="M 72.900308,57.159574 72.148056,56.72526"
+         style="fill:none;stroke:#262626;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4844-9-9-5"
+         d="m 72.148056,56.72526 0.752252,-0.434314"
+         style="fill:none;stroke:#262626;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4759"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333302px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;vector-effect:none;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,28.111891,15.420259)"><flowRegion
+         id="flowRegion4761"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"><rect
+           id="rect4763"
+           width="55.011028"
+           height="47.379135"
+           x="148.37695"
+           y="134.11858"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '" /></flowRegion><flowPara
+         id="flowPara4765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '">Penetração  adicional</flowPara></flowRoot>    <g
+       id="g4849"
+       transform="translate(-17.238885,-6.1471991)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4769"
+         d="M 84.671684,44.683312 H 96.027502"
+         style="fill:none;stroke:#007b90;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4769-0"
+         d="M 84.673682,49.79998 H 96.043769"
+         style="fill:none;stroke:#007b90;stroke-width:0.40000004;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.40000005, 2.40000005;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4717-5"
+         y="45.556702"
+         x="97.362885"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:1.25;font-family:computer-modern;-inkscape-font-specification:computer-modern;font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;vector-effect:none;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';stroke-width:0.26458332"
+           y="45.556702"
+           x="97.362885"
+           id="tspan4715-6"
+           sodipodi:role="line">Curva de desempenho original</tspan></text>
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-1.7900704,-2.251673)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333302px;line-height:1.25;font-family:cambria;-inkscape-font-specification:'cambria, Normal';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;vector-effect:none;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="flowRoot4822"
+         xml:space="preserve"><flowRegion
+           style="text-align:start;text-anchor:start"
+           id="flowRegion4824"><rect
+             style="text-align:start;text-anchor:start"
+             y="185.6032"
+             x="374.7666"
+             height="27.212456"
+             width="142.60132"
+             id="rect4826" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"
+           id="flowPara4828">Curva de desempenho após melhoria do HC</flowPara></flowRoot>      <rect
+         y="42.338539"
+         x="83.721733"
+         height="11.717261"
+         width="51.375122"
+         id="rect4830"
+         style="fill:none;fill-opacity:1;stroke:#262626;stroke-width:0.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4832"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333302px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';font-variant-ligatures:discretionary-ligatures;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;vector-effect:none;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,16.292222,42.138539)"><flowRegion
+         id="flowRegion4834"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '"><rect
+           id="rect4836"
+           width="0.058616713"
+           height="11.279598"
+           x="220.02837"
+           y="20.152369"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '" /></flowRegion><flowPara
+         id="flowPara4838" /></flowRoot>  </g>
+</svg>
